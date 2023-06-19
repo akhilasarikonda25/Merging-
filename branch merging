@@ -21,4 +21,11 @@ and push the file to remote repository and finally check the file content in git
   534  git add integer.py
   535  git commit -m "add"
   536  git push
+ To ignore the files we wil use create file with some extension and will ignore the file 
+>> 538  touch xyz.pyc
+  539  git status
+  540  vi xyz.pyc
+  541  vi .gitignore
+  542  git status
+
 
