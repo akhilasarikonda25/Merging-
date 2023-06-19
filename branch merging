@@ -6,3 +6,19 @@ now merge the dev2 branch from main use the following command
 git merge dev2 
 and push the file to remote repository and finally check the file content in git hub 
 
+    vi integer.py
+  523  git checkout dev2
+  524  vi integer.py
+  525  vi integer.py
+  526  git add integer.py
+  527  git commit -m "added content in dev2 branch"
+  528  vi integer.py
+  529  git checkout master
+  530  vi integer.py
+  531  git merge dev2
+  532  vi integer.py
+  533  git merge dev2
+  534  git add integer.py
+  535  git commit -m "add"
+  536  git push
+
