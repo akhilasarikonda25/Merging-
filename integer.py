@@ -1,8 +1,2 @@
-print('Hello, world!')
-string1 = "Python programming"
-
-
-
-
-
-
+print("hello world")
+print("hello india")
