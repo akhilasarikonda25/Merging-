@@ -28,4 +28,4 @@ and push the file to remote repository and finally check the file content in git
   541  vi .gitignore
   542  git status
 
-![Screenshot_1](https://github.com/akhilasarikonda25/Merging-/assets/133091109/fe24975a-fe29-4cdd-8637-601986fcdba6)
+![Screenshot_1](https://github.com/akhilasarikonda25/Merging-/assets/133091109/fe24975a-fe29-4cdd-8637-601986fcdba6).
