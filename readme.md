@@ -19,3 +19,8 @@ Follow the below link to execute the commands
 
  
 ![Screenshot_1](https://github.com/akhilasarikonda25/Merging-/assets/133091109/fe24975a-fe29-4cdd-8637-601986fcdba6).
+
+Git Rebase : 
+1) suppose in master we are creating one projecr and that is very big it takes 1 week of time to complete , in that time dev 1 is writing and code and commiting , by that time in master branch created some commits by dev 2 1,2,3,4,5,6, commits and dev 2 will push the code to master branch 
+
+2)  now dev 1 done with the coding now dev 1 is trying to push the code while pushing he might be face a lot of conflicts , to resolve those conflicts will use rebase concepts .
