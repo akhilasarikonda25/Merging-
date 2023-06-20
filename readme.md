@@ -28,36 +28,68 @@ Git Rebase :
 use the below commands 
 
  499  git init myproject
+ 
   500  cd myproject
+  
   501  ls -al
+  
   502  touch f1
+  
   503  git status
+  
   504  git add f1
+  
   505  git commit -m "f1 added"
+  
   506  git log
+  
   507  touch f2
+  
   508  git add f2
+  
   509  git commit -m "f2 added"
+  
   510  git log
+  
   511  git branch mumbai
+  
   512  git checkout mumbai
+  
   513  git branch
+  
   514  touch m1
+  
   515  git add m1
+  
   516  git commit -m "m1 added"
+  
   517  git log
+  
   518  git checkout master
+  
   519  touch f3
+  
   520  git add f3
+  
   521  git commit -m "f3 added"
+  
   522  git log
+  
   523  git checkout mumbai
+
   524  git log
+  
   525  git rebase master
+  
   526  git log
+  
   527  git checkout master
+  
   528  git log
+  
   529  git merge mumbai
+  
   530  git log
+  
 
 All the files which are created in master , f1,f2,f3 and in branch m1 are merged in master and mumba branch .( with the help of rebase will push the branch file to the master ) .
