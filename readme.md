@@ -136,13 +136,21 @@ b) hard is used developer mocved the file from working to staging he wants to st
 Following commands used in git reset 
 
   515  vi f2
+  
   516  vi f2
+  
   517  git add f2
+  
   518  git status
+  
   519  git reset --mixed
+  
   520  vi f2
+ 
   521  git status
+  
   522  git reset --hard
+  
   523  vi f2
 
 
