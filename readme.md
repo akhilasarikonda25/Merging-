@@ -124,6 +124,7 @@ we are changing file from staging to local repo will use git commit
 now if in case will modify a file and we add the file from working dir to staging area ,now developer wants to add some more content in that case he need to change the file from staging to working dir 
 in that case will use git reset command 
 Git reset command can be iused in 2 ways 
+
 1)Git reset -- mixed
 
 2)git rest --hard 
@@ -131,3 +132,25 @@ Git reset command can be iused in 2 ways
 a) Mixed is used developer wants to modified a file and he want to continue development then he changed shifted file to staging to working dir at that time will use mixed.
 
 b) hard is used developer mocved the file from working to staging he wants to stop the development , or else he dont want that file to move to the local repo in that case hard will be used 
+
+Following commands used in git reset 
+
+  515  vi f2
+  516  vi f2
+  517  git add f2
+  518  git status
+  519  git reset --mixed
+  520  vi f2
+  521  git status
+  522  git reset --hard
+  523  vi f2
+
+
+
+
+
+
+
+
+
+
