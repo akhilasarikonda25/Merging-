@@ -92,4 +92,19 @@ use the below commands
   530  git log
   
 
-All the files which are created in master , f1,f2,f3 and in branch m1 are merged in master and mumba branch .( with the help of rebase will push the branch file to the master ) .
+All the files which are created in master , f1,f2,f3 and in branch m1 are merged in master and mumbai  branch .( with the help of rebase will push the branch file to the master ) .
+
+
+
+Git Revert : 
+
+1) Revert is nothing but removed a file , suppose created some files such as a, b, c, d and commited now if u want to remove the d file we can use git revert followed by commit id .
+
+2) suppose if we want to remove b file all the files folowed by c,d are also deleted and it is also not the best practice to delete last but one file , make sure before commiting the code , code should be completed without any errors.
+
+execute the below commands
+
+  499  git log
+  500  git revert 01e20c06e57260d7d2e98db23911b50c8234047e
+
+
