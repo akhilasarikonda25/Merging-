@@ -107,4 +107,27 @@ execute the below commands
   499  git log
   500  git revert 01e20c06e57260d7d2e98db23911b50c8234047e
 
+Git reset :
 
+1) There are 3 repo's in git
+
+a) working directory 
+
+b) Staging 
+
+c) local rep
+
+we are changing file from working dir to staging we use git add command 
+
+we are changing file from staging to local repo will use git commit 
+
+now if in case will modify a file and we add the file from working dir to staging area ,now developer wants to add some more content in that case he need to change the file from staging to working dir 
+in that case will use git reset command 
+Git reset command can be iused in 2 ways 
+1)Git reset -- mixed
+
+2)git rest --hard 
+
+a) Mixed is used developer wants to modified a file and he want to continue development then he changed shifted file to staging to working dir at that time will use mixed.
+
+b) hard is used developer mocved the file from working to staging he wants to stop the development , or else he dont want that file to move to the local repo in that case hard will be used 
