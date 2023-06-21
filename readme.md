@@ -153,6 +153,19 @@ Following commands used in git reset
   
   523  vi f2
 
+Git tagging 
+
+1) While we are commiting the files it will generate commit id which is og 48byte it is very lengthy to store , so inorder to remind that lenghthy code we are using some tagging through some versions
+
+2) like one commit we are attaching the versions like v1,v2 ,v3 so that it is easy to recognise instead of reminding thet 48 bit code it is very easy to remind the v1 , v2 version names so that is the purspose of tagging
+
+In tagging we use following command 
+
+git tag -a v1.0 commid id 
+
+then run git log for one commit it will show v1.0 
+
+
 
 
 
