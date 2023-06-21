@@ -105,6 +105,7 @@ Git Revert :
 execute the below commands
 
   499  git log
+  
   500  git revert 01e20c06e57260d7d2e98db23911b50c8234047e
 
 Git reset :
