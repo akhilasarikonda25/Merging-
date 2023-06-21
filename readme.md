@@ -162,7 +162,7 @@ Git tagging
 
 In tagging we use following command 
 
-git tag -a v1.0 commid id 
+>>>>       git tag -a v1.0 commtid id 
 
 then run git log for one commit it will show v1.0 
 
